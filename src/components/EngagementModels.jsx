@@ -5,7 +5,10 @@ export default function EngagementModels() {
             {/* Left Side: Image + Content */}
             <div className="w-full md:w-1/3">
                 <img src="/freepik-2974 1.png" alt="Engagement" className="rounded-lg shadow-md mb-6" />
-                <h2 className="text-xl font-bold mb-4">ENGAGEMENT MODELS</h2>
+                <div>
+                    <h2 className="text-xl font-bold mb-4">ENGAGEMENT MODELS<br /> <p className="space-y-3 text-gray-700">Hire developers who are committed to your project.</p></h2>
+                     
+                </div>
                 <ul className="space-y-3 text-gray-700">
                     <li><strong>Dedicated Teams of Developers</strong> <br /> Hire developers who are committed to your project.</li>
                     <li><strong>Outsource Your Work</strong> <br /> Get a solution that is tailored to your needs.</li>
