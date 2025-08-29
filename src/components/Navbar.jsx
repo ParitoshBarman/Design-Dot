@@ -1,6 +1,6 @@
 export default function Navbar() {
     return (
-        <header className="w-full bg-black text-white">
+        <header className="w-full bg-[#141429] text-white">
             <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
 
                 {/* Left: Free Consultation Button */}
@@ -10,8 +10,17 @@ export default function Navbar() {
 
                 {/* Middle: Navigation */}
                 <nav className="flex items-center space-x-8 font-semibold text-sm uppercase tracking-wide">
-                    <a href="#expertise" className="hover:text-orange-500">Expertise</a>
-                    <a href="#ai" className="hover:text-orange-500">AI – Ingenuity</a>
+                    
+                    <a href="#expertise"
+                        className="relative text-white after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[3px] after:bg-white">
+                        Expertise
+                    </a>
+
+                    <a href="#ai"
+                        className="bg-gradient-to-r from-gray-400 to-orange-500 bg-clip-text text-transparent font-semibold">
+                        AI – Ingenuity
+                    </a>
+
                     <a href="#technology" className="hover:text-orange-500">Technology</a>
                     <a href="#corporate" className="hover:text-orange-500">Corporate</a>
                     <a href="#contact" className="hover:text-orange-500">Contact Us</a>

@@ -3,38 +3,70 @@ export default function EngagementModels() {
         <section className="w-full bg-white py-12 px-8 flex flex-col md:flex-row gap-8 max-w-7xl mx-auto">
 
             {/* Left Side: Image + Content */}
-            <div className="w-full md:w-1/3">
+            <div className="w-full md:w-1/3 min-w-[300px]">
                 <img src="/freepik-2974 1.png" alt="Engagement" className="rounded-lg shadow-md mb-6" />
-                <div>
-                    <h2 className="text-xl font-bold mb-4">ENGAGEMENT MODELS<br /> <p className="space-y-3 text-gray-700">Hire developers who are committed to your project.</p></h2>
-                     
-                </div>
-                <ul className="space-y-3 text-gray-700">
-                    <li><strong>Dedicated Teams of Developers</strong> <br /> Hire developers who are committed to your project.</li>
+                {/* Title + Subtitle */}
+                <h2 className="text-2xl font-bold text-black mb-2">
+                    ENGAGEMENT MODELS
+                </h2>
+                <p className="text-gray-700 mb-6">
+                    <b>Hiring Software Developers</b>, It only takes a few clicks
+                </p>
+                <ul className="space-y-3 text-gray-700 ml-6 text-sm">
+                    <li><strong className="text-lg">Dedicated Teams of Developers</strong> <br /> Hire developers who are committed to your project.</li>
                     <li><strong>Outsource Your Work</strong> <br /> Get a solution that is tailored to your needs.</li>
                     <li><strong>Staff Augmentation</strong> <br /> Close the talent gap on your internal staff.</li>
                 </ul>
             </div>
 
             {/* Middle Menu */}
-            <div className="w-full md:w-1/3">
-                <ul className="space-y-4 font-semibold text-indigo-700">
+            <div className="w-full md:w-1/3 pr-6 border-r border-gray-300" style={{ "borderRight": "2px solid #00539C", "margin": "10px 10px 0 81px", "minWidth": "300px" }}>
+                <ul className="space-y-4 text-sm font-bold tracking-wide text-[#0A2F75]">
+
+                    {/* Active item */}
+                    <li className="flex items-center justify-between">
+                        <span className="bg-[#0A2F75] text-white px-3 py-1 rounded font-bold uppercase text-">
+                            ENGINEERING
+                        </span>
+                    </li>
+
+                    {/* Other menu items */}
                     {[
-                        "ENGINEERING", "WEB & ECOMMERCE", "MOBILE APP",
-                        "BRAND DEVELOPMENT", "MEDIA ADVERTISING",
-                        "DIGITAL MARKETING", "DIGITAL TRANSFORMATION",
-                        "EMERGING TECHNOLOGIES", "IT SUPPORT & TESTING", "SOLUTIONS"
+                        "WEB & ECOMMERCE",
+                        "MOBILE APP",
+                        "BRAND DEVELOPMENT",
+                        "MEDIA ADVERTISING",
+                        "DIGITAL MARKETING",
+                        "DIGITAL TRANSFORMATION",
+                        "EMERGING TECHNOLOGIES",
+                        "IT SUPPORT & TESTING",
+                        "SOLUTIONS",
                     ].map((item, idx) => (
-                        <li key={idx} className="hover:text-orange-500 cursor-pointer">{item} →</li>
+                        <li
+                            key={idx}
+                            className="flex items-center justify-between uppercase cursor-pointer hover:text-orange-500 text-lg"
+                        >
+                            <span>{item}</span>
+                            <span className="text-xs">🞂</span>
+                        </li>
                     ))}
                 </ul>
             </div>
 
+
             {/* Right Services List */}
-            <div className="w-full md:w-1/3">
-                <h3 className="font-bold text-lg mb-4 border-b-2 border-indigo-700 pb-2">ENGINEERING</h3>
-                <div className="grid grid-cols-2 gap-4 text-gray-700">
-                    <ul className="space-y-2">
+            <div className="w-full md:w-2/3 pl-8">
+                {/* Section Title with underline */}
+                <div className="flex items-center mb-6">
+                    <h3 className="font-bold uppercase text-[#0A2F75] text-sm tracking-wide mr-4">
+                        ENGINEERING
+                    </h3>
+                    <div className="flex-1 border-b border-[#0A2F75]"></div>
+                </div>
+
+                {/* Two-column service grid */}
+                <div className="grid grid-cols-2 gap-x-12 gap-y-3 text-[#0A2F75] text-sm">
+                    <ul className="space-y-3">
                         <li>Software Engineering</li>
                         <li>Software Consulting</li>
                         <li>Software Development Services</li>
@@ -42,18 +74,28 @@ export default function EngagementModels() {
                         <li>Custom Software Development</li>
                         <li>Software Product Development</li>
                         <li>E-Learning Application</li>
-                        <li>ERP | CRM | HRM</li>
                     </ul>
-                    <ul className="space-y-2">
+
+                    <ul className="space-y-3">
                         <li>Software Development Outsourcing</li>
                         <li>Offshore Software Development</li>
                         <li>Big Data Analytics</li>
-                        <li>Application Modernization</li>
+                        <li>Application Modernization Services</li>
                         <li>API Development</li>
                         <li>AI in Software</li>
                     </ul>
                 </div>
+
+                {/* ERP | CRM | HRM Row */}
+                <div className="mt-6 text-[#0A2F75] text-sm font-semibold space-x-4">
+                    <span>ERP</span>
+                    <span>|</span>
+                    <span>CRM</span>
+                    <span>|</span>
+                    <span>HRM</span>
+                </div>
             </div>
+
         </section>
     );
 }

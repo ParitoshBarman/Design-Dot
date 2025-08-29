@@ -1,16 +1,14 @@
 import Navbar from "./components/Navbar";
 import EngagementModels from "./components/EngagementModels";
-// import Stats from "./components/Stats";
-// import CTA from "./components/CTA";
+import StatsCTA from "./components/StatsCTA";
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
       <EngagementModels />
-      {/* <Stats /> */}
-      {/* <CTA /> */}
-    </>
+      <StatsCTA/>
+    </div>
   );
 }
 
