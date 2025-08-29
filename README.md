@@ -21,14 +21,32 @@ This project is a **Figma to React conversion assignment**. The given Figma desi
 ## 📂 Project Structure
 
 ```
-src/
- ├── components/
- │    ├── Navbar.jsx
- │    ├── EngagementModels.jsx
- │    ├── StatsCTA.jsx
- │    
- ├── App.jsx
- ├── main.jsx
+design-dot
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   ├── 24-hour-service-svgrepo-com 1.png
+│   ├── _redirects
+│   ├── arrow-right-svgrepo-com 1.png
+│   ├── backgroundImage.png
+│   ├── designdot-Title-logo 1.png
+│   ├── freepik-2974 1.png
+│   └── vite.svg
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── assets
+│   │   └── react.svg
+│   ├── components
+│   │   ├── EngagementModels.jsx
+│   │   ├── Navbar.jsx
+│   │   └── StatsCTA.jsx
+│   ├── index.css
+│   └── main.jsx
+└── vite.config.js
 ```
 
 ---
