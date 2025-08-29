@@ -4,7 +4,7 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
 
                 {/* Left: Free Consultation Button */}
-                <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-5 py-2 rounded-full">
+                <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-5 py-2 rounded-full text-sm">
                     FREE CONSULTATION
                 </button>
 
