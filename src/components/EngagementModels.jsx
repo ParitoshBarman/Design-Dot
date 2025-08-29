@@ -1,6 +1,6 @@
 export default function EngagementModels() {
     return (
-        <section className="w-full bg-white py-12 px-8 flex flex-col md:flex-row gap-8 max-w-7xl mx-auto">
+        <section className="w-full bg-white py-5 px-5 flex flex-col md:flex-row gap-8 max-w-7xl mx-auto">
 
             {/* Left Side: Image + Content */}
             <div className="w-full md:w-1/3 min-w-[300px]">
@@ -55,7 +55,7 @@ export default function EngagementModels() {
 
 
             {/* Right Services List */}
-            <div className="w-full md:w-2/3 pl-8">
+            <div className="w-full md:w-2/3 pl-8 pt-5">
                 {/* Section Title with underline */}
                 <div className="flex items-center mb-6">
                     <h3 className="font-bold uppercase text-[#0A2F75] text-sm tracking-wide mr-4">
