@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
         <header className="w-full bg-[#141429] text-white">
-            <div className="max-w-8xl mx-auto flex items-center justify-between py-4">
+            <div className="max-w-8xl mx-auto flex items-center justify-between py-4" style={{"maxWidth":"1500px"}}>
                 <div className="flex items-center justify-between gap-5">
 
                     {/* Left: Free Consultation Button */}

@@ -12,8 +12,7 @@ export default function StatsCTA() {
             {/* <div className="absolute inset-0 bg-gradient-to-r from-[#0A2F75]/90 via-black/60 to-black/40"></div> */}
 
             {/* Content */}
-            <div className="relative z-10 max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-between py-6 px-6 gap-6" style={{ backgroundImage: "url('/backgroundImage.png')", backgroundSize: "cover", backgroundPosition: "center",
-            }}>
+            <div className="relative z-10 max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-between py-6 px-6 gap-6" style={{ backgroundImage: "url('/backgroundImage.png')", backgroundSize: "cover", backgroundPosition: "center", "maxWidth":"1500px"}}>
 
                 {/* Stats */}
                 <div className="flex flex-col md:flex-row gap-10 text-center md:text-left">
