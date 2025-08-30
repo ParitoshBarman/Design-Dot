@@ -1,6 +1,6 @@
 export default function EngagementModels() {
     return (
-        <section className="w-full bg-white py-5 px-5 flex flex-col md:flex-row gap-8 max-w-8xl mx-auto" style={{"maxWidth":"1500px"}}>
+        <section className="w-full bg-[#fff4f4] py-5 px-5 flex flex-col md:flex-row gap-8 max-w-8xl mx-auto" style={{"maxWidth":"1500px"}}>
 
             {/* Left Side: Image + Content */}
             <div className="w-full md:w-1/3 min-w-[300px]">

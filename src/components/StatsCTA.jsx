@@ -8,11 +8,17 @@ export default function StatsCTA() {
     return (
         <section
             className="relative w-full text-white">
-            {/* Gradient Overlay */}
-            {/* <div className="absolute inset-0 bg-gradient-to-r from-[#0A2F75]/90 via-black/60 to-black/40"></div> */}
-
-            {/* Content */}
-            <div className="relative z-10 max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-between py-6 px-6 gap-6" style={{ backgroundImage: "url('/backgroundImage.png')", backgroundSize: "cover", backgroundPosition: "center", "maxWidth":"1500px"}}>
+            
+            {/* <div className="relative z-10 max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-between py-6 px-6 gap-6" style={{ backgroundImage: "url('/Rectangle 95.jpg')", backgroundSize: "cover", backgroundPosition: "center", "maxWidth":"1500px"}}> */}
+            <div
+                className="relative z-10 max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-between py-6 px-6 gap-6"
+                style={{
+                    backgroundImage: "linear-gradient(to right, rgba(0,0,50,0.9), rgb(255 194 66 / 57%), rgba(0,0,50,0.9)), url('/Rectangle 95.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    maxWidth: "1500px",
+                }}
+            >
 
                 {/* Stats */}
                 <div className="flex flex-col md:flex-row gap-10 text-center md:text-left">
@@ -25,12 +31,12 @@ export default function StatsCTA() {
                 </div>
 
                 {/* CTA Text */}
-                <div className="text-center md:text-left max-w-2xl" style={{"maxWidth":"700px"}}>
+                <div className="text-center md:text-left max-w-2xl" style={{ "maxWidth": "700px" }}>
                     <h2 className="text-base font-bold">
                         Want to consult with us on a project but need a quote?{" "}
                         <span className="font-semibold">For an estimate, click this button.</span>
                     </h2>
-                    <p className="mt-1 text-gray-200" style={{"fontSize":"13px"}}>
+                    <p className="mt-1 text-gray-200" style={{ "fontSize": "13px" }}>
                         Start with a free exploratory call—we’ll listen to your needs and suggest
                         tailored strategies, obligation-free.
                     </p>
