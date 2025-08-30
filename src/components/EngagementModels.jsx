@@ -1,6 +1,6 @@
 export default function EngagementModels() {
     return (
-        <section className="w-full bg-[#fff4f4] py-5 px-5 flex flex-col md:flex-row gap-8 max-w-8xl mx-auto" style={{"maxWidth":"1500px"}}>
+        <section className="w-full bg-[#fff4f4] py-5 px-5 flex flex-col md:flex-row gap-8 max-w-8xl mx-auto" style={{ "maxWidth": "1500px" }}>
 
             {/* Left Side: Image + Content */}
             <div className="w-full md:w-1/3 min-w-[300px]">
@@ -9,7 +9,7 @@ export default function EngagementModels() {
                 <h2 className="text-2xl font-bold text-black mb-2">
                     ENGAGEMENT MODELS
                 </h2>
-                <p className="text-gray-700 mb-6">
+                <p className="text-gray-700 mb-6" style={{ "fontSize": "13px" }}>
                     <b>Hiring Software Developers</b>, It only takes a few clicks
                 </p>
                 <ul className="space-y-3 text-gray-700 ml-6 text-sm">
@@ -47,7 +47,7 @@ export default function EngagementModels() {
                             className="flex items-center justify-between uppercase cursor-pointer hover:text-orange-500 text-lg"
                         >
                             <span>{item}</span>
-                            <span className="text-xs" style={{"fontSize":"8px"}}>🞂</span>
+                            <span className="text-xs" style={{ "fontSize": "8px" }}>🞂</span>
                         </li>
                     ))}
                 </ul>
@@ -57,7 +57,7 @@ export default function EngagementModels() {
             {/* Right Services List */}
             <div className="w-full md:w-2/3 pl-8 pt-5">
                 {/* Section Title with underline */}
-                <div className="flex items-center mb-6">
+                <div className="flex items-center mb-8">
                     <h3 className="font-bold uppercase text-[#0A2F75] text-lg tracking-wide mr-4">
                         ENGINEERING
                     </h3>

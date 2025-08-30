@@ -66,7 +66,7 @@ design-dot
 ![Figma Screenshot](./screenshots/figma.png)
 
 ### ⚛️ React Output (My Implementation)
-![React Screenshot](./screenshots/output.png)
+![React Screenshot](./screenshots/output2.png)
 
 ---
 
