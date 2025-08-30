@@ -8,12 +8,12 @@ export default function StatsCTA() {
     return (
         <section
             className="relative w-full text-white">
-            
+
             {/* <div className="relative z-10 max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-between py-6 px-6 gap-6" style={{ backgroundImage: "url('/Rectangle 95.jpg')", backgroundSize: "cover", backgroundPosition: "center", "maxWidth":"1500px"}}> */}
             <div
-                className="relative z-10 max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-between py-6 px-6 gap-6"
+                className="relative z-10 max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-between py-6 px-16 gap-6"
                 style={{
-                    backgroundImage: "linear-gradient(to right, rgba(0,0,50,0.9), rgb(255 194 66 / 57%), rgba(0,0,50,0.9)), url('/Rectangle 95.jpg')",
+                    backgroundImage: "linear-gradient(to right, rgba(0,0,50,0.9), rgb(233 147 21 / 63%), rgba(0,0,50,0.9)), url('/Rectangle 95.jpg')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     maxWidth: "1500px",

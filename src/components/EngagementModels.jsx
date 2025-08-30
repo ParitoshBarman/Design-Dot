@@ -21,11 +21,11 @@ export default function EngagementModels() {
 
             {/* Middle Menu */}
             <div className="w-full md:w-1/3 pr-6 border-r border-gray-300" style={{ "borderRight": "3px solid #00539C", "margin": "10px 10px 0 81px", "minWidth": "300px" }}>
-                <ul className="space-y-4 text-sm font-bold tracking-wide text-[#0A2F75]">
+                <ul className="space-y-4 text-sm font-bold tracking-wide text-[#00539c]">
 
                     {/* Active item */}
                     <li className="flex items-center justify-between">
-                        <span className="bg-[#0A2F75] text-white px-3 py-1 rounded font-bold uppercase text-">
+                        <span className="bg-[#00539c] text-white px-3 py-1 rounded font-bold uppercase text-">
                             ENGINEERING
                         </span>
                     </li>
@@ -58,14 +58,14 @@ export default function EngagementModels() {
             <div className="w-full md:w-2/3 pl-8 pt-5">
                 {/* Section Title with underline */}
                 <div className="flex items-center mb-8">
-                    <h3 className="font-bold uppercase text-[#0A2F75] text-lg tracking-wide mr-4">
+                    <h3 className="font-bold uppercase text-[#00539c] text-lg tracking-wide mr-4">
                         ENGINEERING
                     </h3>
-                    <div className="flex-1 border-b border-[#0A2F75]"></div>
+                    <div className="flex-1 border-b border-[#00539c]"></div>
                 </div>
 
                 {/* Two-column service grid */}
-                <div className="grid grid-cols-2 gap-x-12 gap-y-3 text-[#0A2F75] text-lg">
+                <div className="grid grid-cols-2 gap-x-12 gap-y-3 text-[#00539c] text-lg">
                     <ul className="space-y-3">
                         <li>Software Engineering</li>
                         <li>Software Consulting</li>
@@ -87,7 +87,7 @@ export default function EngagementModels() {
                 </div>
 
                 {/* ERP | CRM | HRM Row */}
-                <div className="mt-6 text-[#0A2F75] text-lg font-semibold space-x-4">
+                <div className="mt-6 text-[#00539c] text-lg font-semibold space-x-4">
                     <span>ERP</span>
                     <span>|</span>
                     <span>CRM</span>
