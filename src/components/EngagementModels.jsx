@@ -20,7 +20,7 @@ export default function EngagementModels() {
             </div>
 
             {/* Middle Menu */}
-            <div className="w-full md:w-1/3 pr-6 border-r border-gray-300" style={{ "borderRight": "3px solid #00539C", "margin": "10px 10px 0 81px", "minWidth": "300px" }}>
+            <div className="w-full md:w-1/3 pr-6 border-r border-gray-300" style={{ "borderRight": "2px solid #00539C", "margin": "10px 10px 0 81px", "minWidth": "300px" }}>
                 <ul className="space-y-4 text-sm font-bold tracking-wide text-[#00539c]">
 
                     {/* Active item */}
