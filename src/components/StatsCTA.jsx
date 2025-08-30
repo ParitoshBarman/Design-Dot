@@ -25,12 +25,12 @@ export default function StatsCTA() {
                 </div>
 
                 {/* CTA Text */}
-                <div className="text-center md:text-left max-w-2xl">
+                <div className="text-center md:text-left max-w-2xl" style={{"maxWidth":"700px"}}>
                     <h2 className="text-base font-bold">
                         Want to consult with us on a project but need a quote?{" "}
                         <span className="font-semibold">For an estimate, click this button.</span>
                     </h2>
-                    <p className="text-xs mt-1 text-gray-200">
+                    <p className="mt-1 text-gray-200" style={{"fontSize":"13px"}}>
                         Start with a free exploratory call—we’ll listen to your needs and suggest
                         tailored strategies, obligation-free.
                     </p>
