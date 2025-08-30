@@ -1,6 +1,6 @@
 export default function EngagementModels() {
     return (
-        <section className="w-full bg-white py-5 px-5 flex flex-col md:flex-row gap-8 max-w-7xl mx-auto">
+        <section className="w-full bg-white py-5 px-5 flex flex-col md:flex-row gap-8 max-w-8xl mx-auto">
 
             {/* Left Side: Image + Content */}
             <div className="w-full md:w-1/3 min-w-[300px]">
@@ -20,7 +20,7 @@ export default function EngagementModels() {
             </div>
 
             {/* Middle Menu */}
-            <div className="w-full md:w-1/3 pr-6 border-r border-gray-300" style={{ "borderRight": "2px solid #00539C", "margin": "10px 10px 0 81px", "minWidth": "300px" }}>
+            <div className="w-full md:w-1/3 pr-6 border-r border-gray-300" style={{ "borderRight": "3px solid #00539C", "margin": "10px 10px 0 81px", "minWidth": "300px" }}>
                 <ul className="space-y-4 text-sm font-bold tracking-wide text-[#0A2F75]">
 
                     {/* Active item */}
@@ -58,14 +58,14 @@ export default function EngagementModels() {
             <div className="w-full md:w-2/3 pl-8 pt-5">
                 {/* Section Title with underline */}
                 <div className="flex items-center mb-6">
-                    <h3 className="font-bold uppercase text-[#0A2F75] text-sm tracking-wide mr-4">
+                    <h3 className="font-bold uppercase text-[#0A2F75] text-lg tracking-wide mr-4">
                         ENGINEERING
                     </h3>
                     <div className="flex-1 border-b border-[#0A2F75]"></div>
                 </div>
 
                 {/* Two-column service grid */}
-                <div className="grid grid-cols-2 gap-x-12 gap-y-3 text-[#0A2F75] text-sm">
+                <div className="grid grid-cols-2 gap-x-12 gap-y-3 text-[#0A2F75] text-lg">
                     <ul className="space-y-3">
                         <li>Software Engineering</li>
                         <li>Software Consulting</li>
@@ -87,7 +87,7 @@ export default function EngagementModels() {
                 </div>
 
                 {/* ERP | CRM | HRM Row */}
-                <div className="mt-6 text-[#0A2F75] text-sm font-semibold space-x-4">
+                <div className="mt-6 text-[#0A2F75] text-lg font-semibold space-x-4">
                     <span>ERP</span>
                     <span>|</span>
                     <span>CRM</span>
