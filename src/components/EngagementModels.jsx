@@ -47,7 +47,7 @@ export default function EngagementModels() {
                             className="flex items-center justify-between uppercase cursor-pointer hover:text-orange-500 text-lg"
                         >
                             <span>{item}</span>
-                            <span className="text-xs">🞂</span>
+                            <span className="text-xs" style={{"fontSize":"8px"}}>🞂</span>
                         </li>
                     ))}
                 </ul>
