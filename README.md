@@ -75,7 +75,7 @@ design-dot
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/ParitoshBarman/Design-Dot.git
-cd figma-to-react
+cd design-dot
 ```
 
 ### 2. Install Dependencies
